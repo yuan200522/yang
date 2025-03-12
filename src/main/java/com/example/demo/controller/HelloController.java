@@ -35,4 +35,5 @@ public class HelloController {
         list.add(address2);
         return Result.success(list);
     }
+    @RequestMapping
 }
